@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Template from './Components/Webshop/Template';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
