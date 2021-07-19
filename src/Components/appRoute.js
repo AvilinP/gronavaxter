@@ -2,7 +2,6 @@ import {Route, BrowserRouter as Router} from "react-router-dom";
 import React from "react"; 
 import Homepage from "./Webshop/Homepage";
 import Header from "./Partials/Header"; 
-import Footer from "./Partials/Footer"; 
 import ProductInfo from "./Webshop/Product"; 
 import ProductList from "./Webshop/Products";
 import ProductTemplate from "./Webshop/Template";
