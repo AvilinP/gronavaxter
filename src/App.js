@@ -1,14 +1,11 @@
-import Template from './Components/Webshop/Template';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from './Components/Partials/Header';
-import Homepage from './Components/Webshop/Homepage';
+import AppRoute from './Components/appRoute';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Homepage />
-      {/* <Template />  */}
+  
+      <AppRoute/> 
     
     </div>
   );
