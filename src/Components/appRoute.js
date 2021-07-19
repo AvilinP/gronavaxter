@@ -18,13 +18,10 @@ function AppRoute() { 
                 <Route exact path="/product" component={ProductInfo} />
                 <Route exact path="/products" component={ProductList} />
                 <Route exact path="/template" component={ProductTemplate} />
-
-
-        
-           
+   
         </Router>
         </> 
 
     )
 }
-export default AppRoute
+export default AppRoute;
