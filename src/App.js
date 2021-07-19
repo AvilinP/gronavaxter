@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
-import AppRoute from './Components/appRoute';
+import AppRoute from './Components/AppRoute';
 
 function App() {
   return (
-    <div className="App">
+    <div>
   
       <AppRoute/> 
     

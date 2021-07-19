@@ -9,7 +9,7 @@ import ProductTemplate from "./Webshop/Template";
 
 
 
-export default function AppRoute() { 
+function AppRoute() { 
     return(
         <>
         <Router>
@@ -22,9 +22,10 @@ export default function AppRoute() { 
 
 
         
-            <Footer />
+           
         </Router>
         </> 
 
     )
 }
+export default AppRoute
