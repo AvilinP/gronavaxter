@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+
 
 
 function Homepage() {
@@ -41,7 +42,7 @@ function Homepage() {
                     <div class="col-md-7">
                         <img src="/Images/landskapsdesign_start.jpg" class="img-fluid" alt="..."/>
                         </div>
-                        <div class="col-md-5 bg-success">
+                        <div class="col-md-5 bg-landscaping">
                             <div class="card-body ">
                                 <h5 class="card-title">Planera trädgård - boka hembesök</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

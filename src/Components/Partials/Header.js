@@ -1,17 +1,17 @@
-import React from "react"
+import React from "react";
 
 function Header() {
 
     return (
         <>
-            <nav className="navbar p-0 bg-light">
+            <nav className="navbar sticky-top p-0 pt-2 bg-menu">
 
-                <h3 className="ms-3">Gröna Växter</h3>
+                <h3 className="ms-3 logo">GRÖNA VÄXTER</h3>
 
                 <ul className="navbar p-2 list-unstyled">
-                    <li className="">Shop |</li>
-                    <li className="ps-2">Om oss |</li>
-                    <li className="ps-2">Varukorg</li>
+                    <li>SHOP |</li>
+                    <li className="ps-2">OM OSS |</li>
+                    <li className="ps-2">VARUKORG</li>
                 </ul>
 
             </nav>
