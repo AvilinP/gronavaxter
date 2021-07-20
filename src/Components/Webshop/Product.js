@@ -3,6 +3,7 @@ import { Carousel } from "react-responsive-carousel";
 
 function ProductInfo() { 
     return(
+        <>
         <main>
             <div className="mt-6">
                 <div className="flex border-box align-center wrap"> 
@@ -33,7 +34,30 @@ function ProductInfo() { 
                     <p>1299 SEK</p>
                 </div>
             </div>
+
         </main>
+        <div className="border-box">
+            <h3 className="position-absolute top-200 start-50 translate-middle">RECENSIONER</h3>
+            <div className="bg-menu" style={{width: 25 + '%'}}>
+                <img src=""/>
+            </div>
+            <div>
+                <img src=""/>
+            </div>
+            <div>
+                <img src=""/>
+            </div>
+            <div>
+                <img src=""/>
+            </div>
+            <div>
+                <img src=""/>
+            </div>
+            <div>
+                <img src=""/>
+            </div>
+        </div>
+        </>
 
     )
 }
