@@ -22,3 +22,29 @@ code {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
 }
+
+.hero-img {
+  height: 700px;
+  background-image: url('http://localhost:3000/Images/startbild.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.hero-text {
+  font-size: 4rem;
+  /* color: #d77e5e; */
+  color: black;
+  text-align: center;
+  margin: 3rem;
+}
+
+.btn-color {
+  background-color: #d77e5e;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-weight: bold;
+  color: white;
+  font-kerning: normal;
+}
