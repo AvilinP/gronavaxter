@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Partials/Footer";
 
 
 
@@ -19,7 +20,7 @@ function Homepage() {
             <div className="container p-4">
                 <div className="row d-flex justify-content-center align-items-center">
                     <div className="col-6">
-                        <img src="/Images/vänsterbild_start.jpg" alt="bild" />
+                        <img src="/Images/vänsterbild_start.jpg" alt="bild" className="img-fluid" />
                     </div>
                     <div className="col-6"><h3>Vi erbjuder färg till trädgården och inne. Så du alltid ser cool ut.</h3></div>
                 </div>
@@ -28,7 +29,7 @@ function Homepage() {
                 <div className="row d-flex justify-content-center align-items-center">
                     <div className="col-6"><h3>Våra växer kommer med näring och vägledning hur du ska ta hand om dom. Bra va?</h3></div>
                     <div className="col-6">
-                        <img src="/Images/högerbild_start.jpg" alt="bild" />
+                        <img src="/Images/högerbild_start.jpg" alt="bild" className="img-fluid"/>
                     </div>
                 </div>
             </div>
@@ -63,31 +64,57 @@ function Homepage() {
                         <img src="/Images/landskapsdesign_start.jpg" className="card-img-top" alt="..." />
                         <div className="card-body d-flex flex-column justify-content align-items-center">
                             <h5 className="card-title text-center">Blommor ute</h5>
-                            <p className="card-text text-center">Sätt färg på trädgården med vackra blommor</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                            <p className="card-text text-center">Sätt färg på trädgården med vackra blommor.</p>
                         </div>
                     </div>
 
                     <div className="card m-2" style={{ width: "18rem" }}>
                         <img src="/Images/landskapsdesign_start.jpg" className="card-img-top" alt="..." />
                         <div className="card-body d-flex flex-column justify-content align-items-center">
-                            <h5 className="card-title text-center">Blommor ute</h5>
-                            <p className="card-text text-center">Sätt färg på trädgården med vackra blommor</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                            <h5 className="card-title text-center">Gödsel och näring</h5>
+                            <p className="card-text text-center">Ge dina växter gödsel och näring i år.</p>
                         </div>
                     </div>
 
                     <div className="card m-2" style={{ width: "18rem" }}>
                         <img src="/Images/landskapsdesign_start.jpg" className="card-img-top" alt="..." />
                         <div className="card-body d-flex flex-column justify-content align-items-center">
-                            <h5 className="card-title text-center">Blommor ute</h5>
-                            <p className="card-text text-center">Sätt färg på trädgården med vackra blommor</p>
-                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                            <h5 className="card-title text-center">Krukor</h5>
+                            <p className="card-text text-center">Botanisera bland säsongens nya krukor!</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div className="d-flex flex-column justify-content-center align-items-center p-5">
+                    <h1 className="pb-3">@GRONAVÄXTER</h1>
+
+                    <div class="container">
+                        <div class="row m-5">
+                            <div class="col">
+                            <img src="/Images/instagram_start_1.png" className="card-img-top" alt="Bild från Instagram" />
+                            </div>
+                            <div class="col">
+                            <img src="/Images/instagram_start_2.png" className="card-img-top" alt="Bild från Instagram" />
+                            </div>
+                            
+                        </div>
+
+                        <div class="row m-5">
+                            <div class="col text-center">
+                            <img src="/Images/instagram_start_3.png" className="card-img-top" alt="Bild från Instagram" />                            </div>
+                            <div class="col">
+                            <img src="/Images/instagram_start_4.png" className="card-img-top" alt="Bild från Instagram" />
+                            </div>
+                            
                         </div>
                     </div>
 
                 </div>
             </div>
+
+            <Footer />
 
         </>
     )
