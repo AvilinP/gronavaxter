@@ -6,23 +6,23 @@ function ProductInfo() { 
         <>
         
             <div className="container mt-6">
-                <div className=" d-flex "> 
-                    <Carousel autoplay style={{width: 50 + '%'}}>
-                        <div className="w-50" style={{width: 50 + '%'}}>
-                            <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid max-width: 50%; height: 50%;" alt=""/>
+                <div className="d-flex w-50 m-3"> 
+                    <Carousel className="">
+                        <div className="">
+                            <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt=""/>
                         </div>
-                        <div className="w-50">
-                            <img src="./Images/cleo.jpg" className="img-tumbnail img-fluid max-width: 50%; height: 50%;" alt=""/>
+                        <div className="">
+                            <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt=""/>
                         </div>
-                        <div className="w-50">
-                            <img src="./Images/startbild.jpg" className="img-tumbnail img-fluid max-width: 50%; height: 50%;" alt=""/>
+                        <div className="">
+                            <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt=""/>
                         </div>
-                        <div className="w-50">
-                            <img src="./Images/högerbild_start.jpg" className="img-tumbnail img-fluid max-width: 50%; height: 50%;" alt=""/>
+                        <div className="">
+                            <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt=""/>
                         </div>
                     </Carousel>
-                <div>
-                    <div>
+                <div className="container">
+                    <div className="m-3">
                         <h2>PRODUKT</h2>
                         <p>
                             Denna produkt är fantastisk, så fin och så underbar. Se den, testa den, köp den!
