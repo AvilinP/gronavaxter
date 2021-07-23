@@ -34,7 +34,7 @@ code {
 .hero-text {
   font-size: 4rem;
   /* color: #d77e5e; */
-  color: black;
+  color: white;
   text-align: center;
   margin: 3rem;
 }
@@ -48,3 +48,8 @@ code {
   color: white;
   font-kerning: normal;
 }
+
+.bg-footer {
+  background-color: #fadfd1;
+}
+
