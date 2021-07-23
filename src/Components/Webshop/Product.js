@@ -94,13 +94,15 @@ function ProductInfo() { 
            
 
 
-            <div className=" container mt-5 ml-5 ">
+            <div className="container mt-5 ml-5 ">
                 <h3 className="position-absolute top-200 start-50 translate-middle">RECENSIONER</h3>
                 <div className="d-flex flex-wrap" style={{height: 100 + 'px'}}>
 
                     <div className="bg-menu border m-3" style={{width: 25 + '%'}}>
-                        <img className="rounded-circle w-25" src="./Images/reviews.jpg" alt=""/>
-                        <h7 className="text-warning">TIFFANY MALONE</h7>
+                        <div className="flex-column">
+                            <img className="rounded-circle w-25 col" src="./Images/reviews.jpg" alt=""/>
+                            <h7 className="text-warning col">TIFFANY MALONE</h7>
+                        </div>
                         <p>Testimonials are short quotes from people who love your brand.
                             It's a great way to convince customers to try your services.
                         </p>
@@ -144,27 +146,49 @@ function ProductInfo() { 
             </div>
 
 
-            <div className="d-flex flex-column justify-content-center align-items-center p-5">
+            <div className="d-flex flex-column align-items-center p-5">
                     <h3 className=" ">BILDER FRÅN KÖPARE</h3>
                     <div className="container">
                         <div className="row">
-                        {/* 33.3 % hade de små bilderna behövt vara för att de ska kunna passa till de som är 50%. Kan inte se att man kan ha en sån specifik %?? */}
-                        
-                            <img className="w-25" src="./Images/bildkund1.jpg" alt=""/>
-                        
-                        
-                            <img className="w-25" src="./Images/bildkund2.jpg" alt=""/>
-                        
-                        
-                            <img className="w-25" src="./Images/bildkund3.jpg" alt=""/>
-                        
-                        
-                            <img className="w-25" src="./Images/bildkund4.jpg" alt=""/>
-                        
-                        
-                            <img className="w-25" src="./Images/bildkund5.jpg" alt=""/>
+
+                            <div className="col">
+                                <img className="card-img-top" src="./Images/bildkund1.jpg" alt=""/>
+                            </div>     
+                            <div className="col">
+                                <img className="card-img-top" src="./Images/bildkund2.jpg" alt=""/>  
+                            </div>
+                            <div className="col">
+                                <img className="card-img-top" src="./Images/bildkund3.jpg" alt=""/>   
+                            </div>
+                            <div className="col">
+                                <img className="card-img-top" src="./Images/bildkund4.jpg" alt=""/>    
+                            </div>
+                            <div className="col">
+                                <img className="card-img-top" src="./Images/bildkund5.jpg" alt=""/>  
+                            </div>
+
                         </div>
                     </div>
+            </div>
+
+
+            <div className="d-flex flex-column align-items-center p-5">
+                <h3>DU KANSKE OCKSÅ TYCKER OM..</h3>
+                <div className="container col-9">
+                    <div className="row">
+
+                        <div className="col">
+                            <img className="card-img-top" src="./Images/test1.jpg" alt="Bild av en blå blomma"/>
+                        </div>
+                        <div className="col">
+                            <img className="card-img-top" src="./Images/test2.jpg" alt="Bild av blommor på en äng"/>
+                        </div>
+                        <div className="col">
+                            <img className="card-img-top" src="./Images/test3.jpg" alt="Bild på en rosa blomma"/>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         
         </>
