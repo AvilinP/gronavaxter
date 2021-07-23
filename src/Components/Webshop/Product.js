@@ -3,7 +3,8 @@ import { Carousel } from "react-responsive-carousel";
 
 function ProductInfo() { 
 
-    const [isOpen, setIsOpen] = useState(false); 
+    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen2, setIsOpen2] = useState(false); 
 
     return(
         <>
@@ -35,20 +36,24 @@ function ProductInfo() { 
                             Denna produkt är fantastisk, så fin och så underbar. Se den, testa den, köp den!
                         </p>
                         <p>1299 SEK</p>
+
+                        <div className="card-body">
+                            <button type="button" className="bg-menu rounded border-0 p-3 w-50 mt-5 ">KÖP</button>    
+                          </div>
                         
 
                             <div className="mt-5">
-                                <div class="card">
-                                    <div class="card-header" >
-                                    <h2 class="mb-0">
-                                        <button onClick={() => setIsOpen(!isOpen)} class="btn btn-link" type="button" >
+                                <div className="card">
+                                    <div className="card-header" >
+                                    <h2 className="mb-0">
+                                        <button onClick={() => setIsOpen(!isOpen)} className="btn btn-link text-dark" type="button" >
                                         Skötselråd
                                         </button>
                                     </h2>
                                     </div>
 
                                     {isOpen && 
-                                    <div class="card-body">
+                                    <div className="card-body">
                                     För att lyckas med palettblad håller du jorden lätt och jämnt fuktig – den bör inte torka.
                                     Särskilt viktigt är det att hålla jorden fuktig i soligt läge. Häll gärna svag dos flytande näring
                                     i vattnet från vår till höst. Mycket ljus ger vackra färger på bladen.  
@@ -57,17 +62,17 @@ function ProductInfo() { 
 
                                 </div>
 
-                                <div class="card">
-                                    <div class="card-header">
-                                    <h2 class="mb-0">
-                                        <button onClick={() => setIsOpen(!isOpen)} class="btn btn-link collapsed" type="button">
+                                <div className="card">
+                                    <div className="card-header">
+                                    <h2 className="mb-0">
+                                        <button onClick={() => setIsOpen2(!isOpen2)} className="btn btn-link text-dark" type="button">
                                         Teknisk information
                                         </button>
                                     </h2>
                                     </div>
 
-                                    {isOpen && 
-                                    <div class="card-body">
+                                    {isOpen2 && 
+                                    <div className="card-body">
                                         Latinskt namn: Rhododendron Koichiro Wada (yakushimanum)<br/>
                                         Typ: Rhododendron<br/>
                                         Storlek: 20-25cm, krukodlad<br/>
@@ -82,7 +87,7 @@ function ProductInfo() { 
                                     }
                                 </div> 
                             </div>
-                          </div>      
+                          </div> 
                     </div>
                 </div>
             </div>
@@ -139,9 +144,10 @@ function ProductInfo() { 
             </div>
 
 
-            <div className="container mt-5">
+            <div className="d-flex flex-column justify-content-center align-items-center p-5">
                     <h3 className=" ">BILDER FRÅN KÖPARE</h3>
-                    <div className="d-flex flex-wrap">
+                    <div className="container">
+                        <div className="row">
                         {/* 33.3 % hade de små bilderna behövt vara för att de ska kunna passa till de som är 50%. Kan inte se att man kan ha en sån specifik %?? */}
                         
                             <img className="w-25" src="./Images/bildkund1.jpg" alt=""/>
@@ -157,7 +163,7 @@ function ProductInfo() { 
                         
                         
                             <img className="w-25" src="./Images/bildkund5.jpg" alt=""/>
-                        
+                        </div>
                     </div>
             </div>
         
