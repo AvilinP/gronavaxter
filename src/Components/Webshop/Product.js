@@ -94,85 +94,103 @@ function ProductInfo() { 
            
 
 
-            <div className="container mt-5 ml-5 ">
-                <h3 className="position-absolute top-200 start-50 translate-middle">RECENSIONER</h3>
-                <div className="d-flex flex-wrap" style={{height: 100 + 'px'}}>
+            <div className="d-flex flex-column align-items-center p-5">
+                <h3 className="pb-3">RECENSIONER</h3>
+                <div className="container">
+                    <div className="row justify-content-center">
 
-                    <div className="bg-menu border m-3" style={{width: 25 + '%'}}>
-                        <div className="flex-column">
-                            <img className="rounded-circle w-25 col" src="./Images/reviews.jpg" alt=""/>
-                            <h7 className="text-warning col">TIFFANY MALONE</h7>
+                        <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
+                            <div className="d-flex flex-column align-items-center">
+                                <img className="rounded-pill w-50 col" src="./Images/review1.jpg" alt="En bild på lavender"/>
+                                <h7 className="text-warning m-3">TIFFANY MALONE</h7>
+                            </div>
+                            <p className="fw-lighter">Testimonials are short quotes from people who love your brand.
+                            It's a great way to convince customers to try your services.
+                            </p>
                         </div>
-                        <p>Testimonials are short quotes from people who love your brand.
+                    
+                        <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
+                            <div className="d-flex flex-column align-items-center">
+                                <img className="rounded-pill w-50" src="./Images/review2.jpg" alt="En bild på lavender"/>
+                                <h7 className="text-warning m-3">ROSALIE BOONE</h7>
+                            </div>
+                            <p>Testimonials are short quotes from people who love your brand.
                             It's a great way to convince customers to try your services.
-                        </p>
-                    </div>
-                    <div className="bg-menu border m-3" style={{width: 25 + '%'}}>
-                        <img className="rounded-circle w-25" src="./Images/reviews.jpg" alt=""/>
-                        <h7 className="text-warning">ROSALIE BOONE</h7>
-                        <p>Testimonials are short quotes from people who love your brand.
-                            It's a great way to convince customers to try your services.
-                        </p>
-                    </div>
-                    <div className="bg-menu border m-3" style={{width: 25 + '%'}}>
-                        <img className="rounded-circle w-25" src="./Images/reviews.jpg" alt=""/>
-                        <h7 className="text-warning">GENEVA WATSON</h7>
-                        <p>Testimonials are short quotes from people who love your brand.
-                            It's a great way to convince customers to try your services.
-                        </p>
-                    </div>
-                    <div className="bg-menu border m-3" style={{width: 25 + '%'}}>
-                        <img className="rounded-circle w-25" src="./Images/reviews.jpg" alt=""/>
-                        <h7 className="text-warning">TIFFANY MALONE</h7>
-                        <p>Testimonials are short quotes from people who love your brand.
-                            It's a great way to convince customers to try your services.
-                        </p>
-                    </div>
-                    <div className="bg-menu border m-3" style={{width: 25 + '%'}}>
-                        <img className="rounded-circle w-25" src="./Images/reviews.jpg" alt=""/>
-                        <h7 className="text-warning">ROSALIE BOONE</h7>
-                        <p>Testimonials are short quotes from people who love your brand.
-                            It's a great way to convince customers to try your services.
-                        </p>
-                    </div>
-                    <div className="bg-menu border m-3" style={{width: 25 + '%'}}>
-                        <img className="rounded-circle w-25" src="./Images/reviews.jpg" alt=""/>
-                        <h7 className="text-warning">GENEVA WATSON</h7>
-                        <p>Testimonials are short quotes from people who love your brand.
-                            It's a great way to convince customers to try your services.
-                        </p>
+                            </p>
+                        </div>
+
+                        <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
+                            <div className="d-flex flex-column align-items-center">
+                                <img className="rounded-pill w-50" src="./Images/review3.jpg" alt="En bild på lavender"/>
+                                <h7 className="text-warning m-3">GENEVA WATSON</h7>
+                            </div>
+                            <p>Testimonials are short quotes from people who love your brand.
+                                It's a great way to convince customers to try your services.
+                            </p>
+                        </div>
+
+                        <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
+                            <div className="d-flex flex-column align-items-center">
+                                <img className="rounded-pill w-50" src="./Images/review1.jpg" alt="En bild på lavender"/>
+                                <h7 className="text-warning m-3">TIFFANY MALONE</h7>
+                            </div>
+                            <p>Testimonials are short quotes from people who love your brand.
+                                It's a great way to convince customers to try your services.
+                            </p>
+                        </div>
+
+                        <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
+                            <div className="d-flex flex-column align-items-center">
+                                <img className="rounded-pill w-50" src="./Images/review2.jpg" alt="En bild på lavender"/>
+                                <h7 className="text-warning m-3">ROSALIE BOONE</h7>
+                            </div>
+                            <p>Testimonials are short quotes from people who love your brand.
+                                It's a great way to convince customers to try your services.
+                            </p>
+                        </div>
+
+                        <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
+                            <div className="d-flex flex-column align-items-center">
+                                <img className="rounded-pill w-50" src="./Images/review3.jpg" alt="En bild på lavender"/>
+                                <h7 className="text-warning m-3">GENEVA WATSON</h7>
+                            </div>
+                            <p>Testimonials are short quotes from people who love your brand.
+                                It's a great way to convince customers to try your services.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
+                    
 
-
-            <div className="d-flex flex-column align-items-center p-5">
+ 
+             <div className="d-flex flex-column align-items-center p-5">
                     <h3 className=" ">BILDER FRÅN KÖPARE</h3>
                     <div className="container">
                         <div className="row">
 
-                            <div className="col">
-                                <img className="card-img-top" src="./Images/bildkund1.jpg" alt=""/>
-                            </div>     
-                            <div className="col">
-                                <img className="card-img-top" src="./Images/bildkund2.jpg" alt=""/>  
+                            <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/bildkund5.jpg" alt=""/>
+                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/bildkund2.jpg" alt=""/>  
                             </div>
-                            <div className="col">
-                                <img className="card-img-top" src="./Images/bildkund3.jpg" alt=""/>   
+
+                            <div className="col-lg-4 mb-4 mb-lg-0">
+                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/produktbild.jpg" alt=""/>   
+                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/bildkund4.jpg" alt=""/>    
                             </div>
-                            <div className="col">
-                                <img className="card-img-top" src="./Images/bildkund4.jpg" alt=""/>    
-                            </div>
-                            <div className="col">
-                                <img className="card-img-top" src="./Images/bildkund5.jpg" alt=""/>  
+
+                            <div className="col-lg-4 mb-4 mb-lg-0">
+                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/bildkund8.jpg" alt=""/>
+                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/testar.jpg" alt=""/>  
                             </div>
 
                         </div>
                     </div>
-            </div>
+            </div> 
 
 
-            <div className="d-flex flex-column align-items-center p-5">
+             <div className="d-flex flex-column align-items-center p-5">
                 <h3>DU KANSKE OCKSÅ TYCKER OM..</h3>
                 <div className="container col-9">
                     <div className="row">
@@ -189,8 +207,8 @@ function ProductInfo() { 
 
                     </div>
                 </div>
-            </div>
-        
+            </div> 
+         
         </>
 
     )
