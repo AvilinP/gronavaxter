@@ -100,8 +100,8 @@ function ProductInfo() { 
                     <div className="row justify-content-center">
 
                         <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
-                            <div className="d-flex flex-column align-items-center">
-                                <img className="rounded-pill w-50 col" src="./Images/review1.jpg" alt="En bild på lavender"/>
+                            <div className="d-flex flex-column align-items-center p-3">
+                                <img className="rounded-circle w-50" src="./Images/review2.jpg" alt="En bild på lavender"/>
                                 <h7 className="text-warning m-3">TIFFANY MALONE</h7>
                             </div>
                             <p className="fw-lighter">Testimonials are short quotes from people who love your brand.
@@ -110,8 +110,8 @@ function ProductInfo() { 
                         </div>
                     
                         <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
-                            <div className="d-flex flex-column align-items-center">
-                                <img className="rounded-pill w-50" src="./Images/review2.jpg" alt="En bild på lavender"/>
+                            <div className="d-flex flex-column align-items-center p-3">
+                                <img className="rounded-circle w-50" src="./Images/review2.jpg" alt="En bild på lavender"/>
                                 <h7 className="text-warning m-3">ROSALIE BOONE</h7>
                             </div>
                             <p>Testimonials are short quotes from people who love your brand.
@@ -120,8 +120,8 @@ function ProductInfo() { 
                         </div>
 
                         <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
-                            <div className="d-flex flex-column align-items-center">
-                                <img className="rounded-pill w-50" src="./Images/review3.jpg" alt="En bild på lavender"/>
+                            <div className="d-flex flex-column align-items-center p-3">
+                                <img className="rounded-circle w-50" src="./Images/review2.jpg" alt="En bild på lavender"/>
                                 <h7 className="text-warning m-3">GENEVA WATSON</h7>
                             </div>
                             <p>Testimonials are short quotes from people who love your brand.
@@ -130,8 +130,8 @@ function ProductInfo() { 
                         </div>
 
                         <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
-                            <div className="d-flex flex-column align-items-center">
-                                <img className="rounded-pill w-50" src="./Images/review1.jpg" alt="En bild på lavender"/>
+                            <div className="d-flex flex-column align-items-center p-3">
+                                <img className="rounded-circle w-50" src="./Images/review2.jpg" alt="En bild på lavender"/>
                                 <h7 className="text-warning m-3">TIFFANY MALONE</h7>
                             </div>
                             <p>Testimonials are short quotes from people who love your brand.
@@ -140,8 +140,8 @@ function ProductInfo() { 
                         </div>
 
                         <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
-                            <div className="d-flex flex-column align-items-center">
-                                <img className="rounded-pill w-50" src="./Images/review2.jpg" alt="En bild på lavender"/>
+                            <div className="d-flex flex-column align-items-center p-3">
+                                <img className="rounded-circle w-50" src="./Images/review2.jpg" alt="En bild på lavender"/>
                                 <h7 className="text-warning m-3">ROSALIE BOONE</h7>
                             </div>
                             <p>Testimonials are short quotes from people who love your brand.
@@ -150,8 +150,8 @@ function ProductInfo() { 
                         </div>
 
                         <div className="col-6 bg-menu m-3" style={{ width: "20rem" }}>
-                            <div className="d-flex flex-column align-items-center">
-                                <img className="rounded-pill w-50" src="./Images/review3.jpg" alt="En bild på lavender"/>
+                            <div className="d-flex flex-column align-items-center p-3">
+                                <img className="rounded-circle w-50" src="./Images/review2.jpg" alt="En bild på lavender"/>
                                 <h7 className="text-warning m-3">GENEVA WATSON</h7>
                             </div>
                             <p>Testimonials are short quotes from people who love your brand.
