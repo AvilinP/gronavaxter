@@ -23,6 +23,11 @@ code {
   font-family: 'Montserrat', sans-serif;
 }
 
+.bg-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 :link, :visited, :hover, :active {
   color: black;
   text-decoration: none;
@@ -60,6 +65,16 @@ code {
 }
 
 @media screen and (max-width: 600px) {
+
+  /* .logo, .navbar-links {
+    font-size: small;
+  } */
+
+  .bg-menu {
+    display: flex;
+    justify-content: center !important;
+  }
+
   .hero-text {
     font-size: 2rem;
   }
@@ -74,7 +89,7 @@ code {
   }
   
   .footer-title2 {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   
   .footer-text {
