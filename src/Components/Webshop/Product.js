@@ -1,5 +1,6 @@
 import React, {useState} from "react"; 
 import { Carousel } from "react-responsive-carousel"; 
+import Footer from "../Partials/Footer"; 
 
 function ProductInfo() { 
 
@@ -172,17 +173,17 @@ function ProductInfo() { 
 
                             <div className="col-lg-4 col-md-12 mb-4 mb-lg-0">
                                 <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/bildkund5.jpg" alt=""/>
-                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/bildkund2.jpg" alt=""/>  
+                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/produkt4.jpeg" alt=""/>  
                             </div>
 
                             <div className="col-lg-4 mb-4 mb-lg-0">
-                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/produktbild.jpg" alt=""/>   
+                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/produkt1.jpeg" alt=""/>   
                                 <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/bildkund4.jpg" alt=""/>    
                             </div>
 
                             <div className="col-lg-4 mb-4 mb-lg-0">
                                 <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/bildkund8.jpg" alt=""/>
-                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/testar.jpg" alt=""/>  
+                                <img className="w-100 shadow-1-strong rounded mb-4" src="./Images/produkt7.jpeg" alt=""/>  
                             </div>
 
                         </div>
@@ -195,19 +196,21 @@ function ProductInfo() { 
                 <div className="container col-9">
                     <div className="row">
 
-                        <div className="col">
-                            <img className="card-img-top" src="./Images/test1.jpg" alt="Bild av en blå blomma"/>
+                        <div className="col-lg-4 mb-4 mb-lg-0">
+                            <img className="card-img-top" src="./Images/gillar1.jpeg" alt="Bild av en växt"/>
                         </div>
-                        <div className="col">
-                            <img className="card-img-top" src="./Images/test2.jpg" alt="Bild av blommor på en äng"/>
+                        <div className="col-lg-4 mb-4 mb-lg-0">
+                            <img className="card-img-top" src="./Images/gillar2.jpeg" alt="Bild av en växt"/>
                         </div>
-                        <div className="col">
-                            <img className="card-img-top" src="./Images/test3.jpg" alt="Bild på en rosa blomma"/>
+                        <div className="col-lg-4 mb-4 mb-lg-0">
+                            <img className="card-img-top" src="./Images/gillar3.jpeg" alt="Bild av en växt"/>
                         </div>
 
                     </div>
                 </div>
             </div> 
+
+            <Footer /> 
          
         </>
 
