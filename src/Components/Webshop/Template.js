@@ -1,5 +1,6 @@
 import React from "react"; 
-import Link from "react-router";
+import {Link} from "react-router-dom";
+import Footer from "../Partials/Footer";
 
 
 function ProductTemplate() { 
@@ -17,8 +18,9 @@ function ProductTemplate() { 
                             <p className="card-text">Graciös och lättskött planta</p>
                             <p className="card-text">Price: 100kr</p>
                             <div className=" d-flex flex-column align-items-center">
-                                
-                                <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                <Link to="/product">
+                                    <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                </Link>
                             </div>
                         </div>
                 </div>
@@ -30,7 +32,9 @@ function ProductTemplate() { 
                             <p className="card-text">Graciös och lättskött planta</p>
                             <p className="card-text">Price: 100kr</p>
                             <div className=" d-flex flex-column align-items-center">
-                                <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                <Link to="/product">
+                                    <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                </Link>
                             </div>
                         </div>
                 </div>
@@ -42,7 +46,9 @@ function ProductTemplate() { 
                             <p className="card-text">Graciös och lättskött planta</p>
                             <p className="card-text">Price: 100kr</p>
                               <div className=" d-flex flex-column align-items-center">
-                                <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                <Link to="/product">
+                                    <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                </Link>
                             </div>
                         </div>
                 </div>
@@ -54,7 +60,9 @@ function ProductTemplate() { 
                             <p className="card-text">Graciös och lättskött planta</p>
                             <p className="card-text">Price: 100kr</p>
                               <div className=" d-flex flex-column align-items-center">
-                                <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                <Link to="/product">
+                                    <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                </Link>
                             </div>
                         </div>
                 </div>
@@ -66,7 +74,9 @@ function ProductTemplate() { 
                             <p className="card-text">Graciös och lättskött planta</p>
                             <p className="card-text">Price: 100kr</p>
                               <div className=" d-flex flex-column align-items-center">
-                                <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                <Link to="/product">
+                                    <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                </Link>
                             </div>
                         </div>
                 </div>
@@ -78,7 +88,9 @@ function ProductTemplate() { 
                             <p className="card-text">Graciös och lättskött planta</p>
                             <p className="card-text">Price: 100kr</p>
                               <div className=" d-flex flex-column align-items-center">
-                                <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                <Link to="/product">
+                                    <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                </Link>
                             </div>
                         </div>
                 </div>
@@ -90,7 +102,9 @@ function ProductTemplate() { 
                             <p className="card-text">Graciös och lättskött planta</p>
                             <p className="card-text">Price: 100kr</p>
                               <div className=" d-flex flex-column align-items-center">
-                                <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                <Link to="/product">
+                                    <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                </Link>
                             </div>
                         </div>
                 </div>
@@ -102,7 +116,9 @@ function ProductTemplate() { 
                             <p className="card-text">Graciös och lättskött planta</p>
                             <p className="card-text">Price: 100kr</p>
                               <div className=" d-flex flex-column align-items-center">
-                                <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                <Link to="/product">
+                                    <button type="button" className="bg-menu border-0 p-2">Läs mer</button>
+                                </Link>
                             </div>
                         </div>
                 </div>
@@ -110,6 +126,8 @@ function ProductTemplate() { 
                 </div>
             </div>
         </div>
+
+        <Footer /> 
     </>
             
     )

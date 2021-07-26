@@ -1,5 +1,6 @@
 import React, {useState} from "react"; 
 import { Carousel } from "react-responsive-carousel"; 
+import Footer from "../Partials/Footer"; 
 
 function ProductInfo() { 
 
@@ -208,6 +209,8 @@ function ProductInfo() { 
                     </div>
                 </div>
             </div> 
+
+            <Footer /> 
          
         </>
 
