@@ -11,9 +11,9 @@ function Footer() {
                         <img src="/Images/footer.jpg" className="img-fluid" alt="Bild på Persian Shield blomma"/> 
                     </div>
 
-                    <div className="col bg-footer lg-p-5">
+                    <div className="col bg-footer lg-p-5 text-center pt-lg-5">
                         <div className="card-body">
-                            <h2 className="card-title footer-title info_text_start">KONTAKTA OSS</h2>
+                            <h2 className="card-title footer-title pb-lg-3 info_text_start">KONTAKTA OSS</h2>
 
                             <h5 className="card-text footer-title2 info_text_start">MAIL</h5>
                             <p className="card-text footer-text info_text_start">kontakt[@]gronavaxter.se</p>
