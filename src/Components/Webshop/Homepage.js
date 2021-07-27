@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Partials/Footer";
+ 
 
 
 
@@ -113,6 +114,7 @@ function Homepage() {
 
                 </div>
             </div>
+            
 
             <Footer />
 
