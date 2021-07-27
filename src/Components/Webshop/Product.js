@@ -11,20 +11,20 @@ function ProductInfo() { 
         <>
         
             <div className="container">
-                <div className="d-flex w-50 m-3"> 
-                    <Carousel className="">
+                <div className="d-sm-flex w-50 m-3"> 
+                    <Carousel>
                             
                             <div>
-                                <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt=""/>
+                                <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt="Bild på en färgglad blomma"/>
                             </div>
                             <div>
-                                <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt=""/>
+                                <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt="Bild på en färgglad blomma"/>
                             </div>
                             <div>
-                                <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt=""/>
+                                <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt="Bild på en färgglad blomma"/>
                             </div>
                             <div>
-                                <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt=""/>
+                                <img src="./Images/produktbild.jpg" className="img-tumbnail img-fluid" alt="Bild på en färgglad blomma"/>
                             </div>
                     </Carousel>
 
