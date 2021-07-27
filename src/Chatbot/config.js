@@ -1,9 +1,12 @@
 import { createChatBotMessage } from "react-chatbot-kit";
 
-const config = {
-    botName: "GreenBot",
+//Gröna växters bot kan svara på när varan skickas vid beställning och vart
+//man hittar skötselråd om plantan på vår hemsida.  
 
-    initialMessages: [createChatBotMessage(`Hello, how can I help you?`)]
+const config = {
+    botName: "Gröna växters bot",
+
+    initialMessages: [createChatBotMessage(`Hej, hur kan jag hjälpa dig?`)]
 }
 
 export default config
