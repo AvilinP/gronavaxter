@@ -39,13 +39,20 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
+  opacity: 50%;
 }
 
 .hero-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-kerning: normal;
   font-size: 4rem;
-  /* color: #d77e5e; */
-  color: white;
+  color:black;
   text-align: center;
+}
+
+.info_text_start {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-color {
