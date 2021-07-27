@@ -12,7 +12,7 @@ function ProductTemplate() { 
                 <div className="row justify-content-center">
 
                 <div className="col-6 m-3" style={{width: "18rem"}}>
-                    <img src="/Images/produkt0.jpeg" className="card-img-top"/>
+                    <img src="/Images/produkt0.jpeg" className="card-img-top" alt="Bild på en växt i kruka"/>
                         <div className="card-body border">
                             <h5 className="card-title">FICUS AUDREY</h5>
                             <p className="card-text">Graciös och lättskött planta</p>
@@ -26,7 +26,7 @@ function ProductTemplate() { 
                 </div>
 
                 <div className="col-6 m-3" style={{width: "18rem"}}>
-                    <img src="/Images/produkt1.jpeg" className="card-img-top"/>
+                    <img src="/Images/produkt1.jpeg" className="card-img-top" alt="Bild på en växt i kruka"/>
                         <div className="card-body border">
                             <h5 className="card-title">DIMORPHUM</h5>
                             <p className="card-text">Graciös och lättskött planta</p>
@@ -40,7 +40,7 @@ function ProductTemplate() { 
                 </div>
 
                 <div className="col-6 m-3" style={{width: "18rem"}}>
-                    <img src="/Images/produkt2.jpeg" className="card-img-top"/>
+                    <img src="/Images/produkt2.jpeg" className="card-img-top" alt="Bild på en växt i kruka"/>
                         <div className="card-body border">
                             <h5 className="card-title">ASPLENIUM</h5>
                             <p className="card-text">Graciös och lättskött planta</p>
@@ -54,7 +54,7 @@ function ProductTemplate() { 
                 </div>
 
                 <div className="col-6 m-3" style={{width: "18rem"}}>
-                    <img src="/Images/produkt3.jpeg" className="card-img-top"/>
+                    <img src="/Images/produkt3.jpeg" className="card-img-top" alt="Bild på en växt i kruka"/>
                         <div className="card-body border">
                             <h5 className="card-title">MONSTERA ADANSONII</h5>
                             <p className="card-text">Graciös och lättskött planta</p>
@@ -68,7 +68,7 @@ function ProductTemplate() { 
                 </div>
 
                 <div className="col-6 m-3" style={{width: "18rem"}}>
-                    <img src="/Images/produkt4.jpeg" className="card-img-top"/>
+                    <img src="/Images/produkt4.jpeg" className="card-img-top" alt="Bild på en växt i kruka"/>
                         <div className="card-body border">
                             <h5 className="card-title">FICUS ELASTICA</h5>
                             <p className="card-text">Graciös och lättskött planta</p>
@@ -82,7 +82,7 @@ function ProductTemplate() { 
                 </div>
 
                 <div className="col-6 m-3" style={{width: "18rem"}}>
-                    <img src="/Images/produkt5.jpeg" className="card-img-top"/>
+                    <img src="/Images/produkt5.jpeg" className="card-img-top" alt="Bild på en växt i kruka"/>
                         <div className="card-body border">
                             <h5 className="card-title">FORELLBEGONIA</h5>
                             <p className="card-text">Graciös och lättskött planta</p>
@@ -96,7 +96,7 @@ function ProductTemplate() { 
                 </div>
 
                 <div className="col-6 m-3" style={{width: "18rem"}}>
-                    <img src="/Images/produkt6.jpeg" className="card-img-top"/>
+                    <img src="/Images/produkt6.jpeg" className="card-img-top" alt="Bild på en växt i kruka"/>
                         <div className="card-body border">
                             <h5 className="card-title">ADANSONII</h5>
                             <p className="card-text">Graciös och lättskött planta</p>
@@ -110,7 +110,7 @@ function ProductTemplate() { 
                 </div>
 
                 <div className="col-6 m-3" style={{width: "18rem"}}>
-                    <img src="/Images/produkt7.jpeg" className="card-img-top"/>
+                    <img src="/Images/produkt7.jpeg" className="card-img-top" alt="Bild på en växt i kruka"/>
                         <div className="card-body border">
                             <h5 className="card-title">ELASTICA</h5>
                             <p className="card-text">Graciös och lättskött planta</p>
