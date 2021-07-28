@@ -217,7 +217,7 @@ function ProductInfo() { 
 
 
              <div className="d-flex flex-column align-items-center p-5">
-                <h3>DU KANSKE OCKSÅ TYCKER OM..</h3>
+                <h3 className="text-center">DU KANSKE OCKSÅ TYCKER OM..</h3>
                 <div className="container col-9">
                     <div className="row">
 
