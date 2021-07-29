@@ -55,6 +55,10 @@ code {
   font-family: 'Montserrat', sans-serif;
 }
 
+.bg-reviews {
+  background-color:  #efeae5;
+}
+
 .btn-color {
   background-color: #d77e5e;
   padding: 1rem;
