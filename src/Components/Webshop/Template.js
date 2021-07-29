@@ -36,7 +36,7 @@ function ProductTemplate() {
             </div>
 
             <div className="d-flex flex-column align-items-center pb-5">
-                <h3 className="p-3">Alla produkter</h3>
+                <h3 className="p-3 info-text-start">ALLA PRODUKTER</h3>
                 <div className="container">
                     <div className="row justify-content-center">
 
