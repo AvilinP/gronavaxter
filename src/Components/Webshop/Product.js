@@ -76,14 +76,6 @@ function ProductInfo() {
                                 <button type="button" className=" justify-content-center bg-menu rounded border-0 p-3 w-50">KÖP</button>
                             </div>
 
-                            {/* <div className="pt-5 AR-icon">
-
-                                <a rel="ar" href="./Images/AR/Interior_Tree_Plant.usdz">
-                                    <img className="img-fluid" style={{ maxWidth: "20%" }} src="./Images/AR/AR_icon.png" />
-                                    Se produkten i AR
-                                </a>
-                            </div> */}
-
                             <div className="mt-5">
                                 <div className="card">
                                     <div className="card-header" >
