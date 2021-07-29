@@ -71,12 +71,22 @@ code {
   background-color: #fadfd1;
 }
 
+.AR-icon {
+  visibility: hidden
+}
+
+
+@media screen and (max-width: 1025px) {
+
+  .AR-icon {
+    visibility: visible;
+  }
+
+}
+
 
 @media screen and (max-width: 600px) {
 
-  /* .logo, .navbar-links {
-    font-size: small;
-  } */
 
   .bg-menu {
     display: flex;
