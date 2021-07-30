@@ -138,8 +138,7 @@ function ProductInfo() {
                                 <img className="rounded-circle w-50" src="./Images/recension_1.jpg" alt="En bild på glad person som gett en positiv recension" />
                                 <h7 className="info-text-start md-m-3 sm-m-1 mt-3">TERESE GREN</h7>
                             </div>
-                            <p className="text-center">Testimonials are short quotes from people who love your brand.
-                                It's a great way to convince customers to try your services.
+                            <p className="text-center">"Utan Gröna Växter hade mitt hem varit grått och blekt. Deras kundservice är också top-notch!"
                             </p>
                         </div>
 
@@ -148,8 +147,7 @@ function ProductInfo() {
                                 <img className="rounded-circle w-50" src="./Images/recension_2.jpg" alt="En bild på lavender" />
                                 <h7 className="info-text-start md-m-3 sm-m-1 mt-3">RITA BJÖRK</h7>
                             </div>
-                            <p className="text-center">Testimonials are short quotes from people who love your brand.
-                                It's a great way to convince customers to try your services.
+                            <p className="text-center">"Jag var på jakt efter en ovanliga växt och självklart hittade jag den direkt på Gröna Växter. Tänk om jag visste det från början!"
                             </p>
                         </div>
 
@@ -158,8 +156,7 @@ function ProductInfo() {
                                 <img className="rounded-circle w-50" src="./Images/recension_3.jpg" alt="En bild på lavender" />
                                 <h7 className="info-text-start md-m-3 sm-m-1 mt-3">GENE ALM</h7>
                             </div>
-                            <p className="text-center">Testimonials are short quotes from people who love your brand.
-                                It's a great way to convince customers to try your services.
+                            <p className="text-center">"Gröna Växter är verkligen min nya e-handelfavorit. Har du testat deras AR? Den är lika magisk som deras växter!"
                             </p>
                         </div>
 
@@ -168,8 +165,7 @@ function ProductInfo() {
                                 <img className="rounded-circle w-50" src="./Images/recension_4.jpg" alt="En bild på lavender" />
                                 <h7 className="info-text-start md-m-3 sm-m-1 mt-3">ANN & JERRY SKOG</h7>
                             </div>
-                            <p className="text-center">Testimonials are short quotes from people who love your brand.
-                                It's a great way to convince customers to try your services.
+                            <p className="text-center">"Vi har handlat växter i många år och till många hem och trädgårdar. Men inga växter överträffar de från Gröna Växter. Vilken hit!"
                             </p>
                         </div>
 
@@ -178,8 +174,7 @@ function ProductInfo() {
                                 <img className="rounded-circle w-50" src="./Images/recension_5.jpg" alt="En bild på lavender" />
                                 <h7 className="info-text-start md-m-3 sm-m-1 mt-3">ANDY LIND</h7>
                             </div>
-                            <p className="text-center">Testimonials are short quotes from people who love your brand.
-                                It's a great way to convince customers to try your services.
+                            <p className="text-center">"Mina händer är verkligen inte gröna. Men hos Gröna Växter blir dem det på en gång! Har du sett deras utbud? Här kan man hitta allt man behöver och lite till. "
                             </p>
                         </div>
 
@@ -188,8 +183,7 @@ function ProductInfo() {
                                 <img className="rounded-circle w-50" src="./Images/recension_6.jpg" alt="En bild på lavender" />
                                 <h7 className="info-text-start md-m-3 sm-m-1 mt-3">JENNY EK</h7>
                             </div>
-                            <p className="text-center">Testimonials are short quotes from people who love your brand.
-                                It's a great way to convince customers to try your services.
+                            <p className="text-center">"Glöm inte att testa deras AR-funktion också! Men den lyckas jag alltid köpa rätt storlek till min vardagsrum. Växter ska komplettera ett hem inte ta över."
                             </p>
                         </div>
 
@@ -200,7 +194,7 @@ function ProductInfo() {
 
 
             <div className="d-flex flex-column align-items-center p-5" style={{ minWidth: '21rem' }}>
-                <h3 className="info-text-start">BILDER FRÅN KÖPARE</h3>
+                <h3 className="info-text-start text-center">BILDER FRÅN KÖPARE</h3>
                 <div className="container">
                     <div className="row">
 
