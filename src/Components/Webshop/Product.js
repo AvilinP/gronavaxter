@@ -58,7 +58,7 @@ function ProductInfo() {
 
                         <a rel="ar" className="d-flex justify-content-center align-items-center" href="./Images/AR/Interior_Tree_Plant.usdz">
                             Se produkten i AR
-                            <img className="img-fluid" style={{ maxWidth: "20%" }} src="./Images/AR/AR_icon.png" />
+                            <img className="img-fluid" style={{ maxWidth: "20%" }} src="./Images/AR/AR_icon.png" alt="AR-bild" />
                         </a>
                     </div>
 
