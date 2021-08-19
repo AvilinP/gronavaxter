@@ -35,7 +35,7 @@ code {
 
 .hero-img {
   height: 700px;
-  background-image: url('http://localhost:3000/Images/startbild.jpg');
+  background-image: url('/Images/startbild.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
