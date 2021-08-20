@@ -4,6 +4,9 @@ import Chatbot from "react-chatbot-kit";
 import ActionProvider from "../../Chatbot/ActionProvider";
 import MessageParser from "../../Chatbot/MessageParser";
 import config from "../../Chatbot/config";
+import { Link } from "react-router-dom"; 
+
+
  
 
 
@@ -40,7 +43,9 @@ function Homepage() {
                 <div className="hero-img"> </div>
                 <div className="card-img-overlay d-flex flex-column justify-content-center align-items-center">
                     <h2 className="hero-text lg-m-3">GRÖNA VÄXTER SER <br /> TILL SÅ ALLA FÅR  <br /> GRÖNA FINGRAR. </h2>
-                    <button className=" btn-color">KÖP NU</button>
+                    <Link to="./products">
+                        <button className=" btn-color">KÖP NU</button>
+                    </Link>
                 </div>
             </div>
 
